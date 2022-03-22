@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# How React Works
+
+## Read about react main concepts at [reactjs.org](https://reactjs.org/docs/hello-world.html)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
