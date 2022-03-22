@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Display from '../Display/Display';
+import Tablet from '../Tablet/Tablet';
 
 const Watch = () => {
     const [steps, setSteps] = useState(0);
@@ -17,6 +18,7 @@ const Watch = () => {
                 <h3>My current steps: {steps}</h3>
                 <button onClick={increaseSteps}>Dour...</button>
                 <Display name="garmin" steps={steps}></Display>
+                <Tablet></Tablet>
             </div>
         </div>
     );
